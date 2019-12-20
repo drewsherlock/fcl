@@ -1,0 +1,6 @@
+mkdir build
+cd build
+
+cmake -G "Visual Studio 15 2017 Win64" -DBOOST_ROOT=C:/Users/asherlock/Dropbox/Git_Cone/201705-theorem-ford-assemblies/boost_1_72_0 -DBOOST_LIBRARYDIR=C:/Users/asherlock/Dropbox/Git_Cone/201705-theorem-ford-assemblies/boost_1_72_0/stage/lib -DBOOST_INCLUDEDIR=C:/Users/asherlock/Dropbox/Git_Cone/201705-theorem-ford-assemblies/boost_1_72_0 -DCCD_LIBRARY="C:/Program Files (x86)/libccd/lib" -DCCD_INCLUDE_DIRS="C:/Program Files (x86)/libccd/include" -T v141 ..
+
+when building INSTALL in VS had to change slashes to "C:/Users/asherlock/Dropbox/Git_Cone/201705-theorem-ford-assemblies/fcl/build/include/fcl/config.h") in C:/Users/asherlock/Dropbox/Git_Cone/201705-theorem-ford-assemblies/fcl/build/include/fcl/cmake_install.cmake
